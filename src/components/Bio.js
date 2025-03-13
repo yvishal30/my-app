@@ -6,7 +6,7 @@ function Bio({languages,tools}){
             <h1>
                 Welcome to my website!
             </h1>
-            <h3>Language Used : {languages.name}</h3>
+            <h3>Language Used : {languages}</h3>
             <p><i>By : {tools}</i></p>
         </div>
         <p className="summary">
