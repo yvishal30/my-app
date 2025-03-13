@@ -1,10 +1,10 @@
 function Button(){
-    function handleButton(){
-        alert("You clicked me !!")
-    }
+    // function handleButton(){
+    //     alert("You clicked me !!")
+    // }
 
     return(
-        <button onClick ={()=>{handleButton()}}>
+        <button onClick ={()=>{alert("You clicked me !!")}}>
             Click Me !
         </button>
     )
