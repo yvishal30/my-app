@@ -4,6 +4,7 @@ import Gallery from './components/Gallery.js'
 import Bio from './components/Bio.js'
 import Avatar from './components/Avatar.js'
 import PackingList from './components/PackingList.js';
+import Button from './components/Button.js';
 
 function App() {
   const props = {
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <div>
+      <Button/>
       <Bio {...props}/>
      <Gallery/>
     
