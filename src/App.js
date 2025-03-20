@@ -8,6 +8,9 @@ import Button from './components/Button.js';
 import IncrementState from './components/IncrementState.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import StateVariable from './components/StateVariable.js';
+import Timer from './components/Timer.js';
+import Counter from './components/Counter.js';
+import ThemeWindow from './components/ThemeWindow.js';
 
 function App() {
   const props = {
@@ -28,7 +31,10 @@ function App() {
       <IncrementState/>
 
       <StateVariable/>
-      
+      <Timer/>
+      <Counter/>
+      <ThemeWindow/>
+ 
     </div>
   );
 }
